@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1873301DFE66A300DECBB7 /* XibBenchmarksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A18732F1DFE66A300DECBB7 /* XibBenchmarksTests.m */; };
 		5A6780481DCCFF8300EC0DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6780471DCCFF8300EC0DFE /* main.m */; };
 		5A67804B1DCCFF8300EC0DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A67804A1DCCFF8300EC0DFE /* AppDelegate.m */; };
 		5A67804E1DCCFF8300EC0DFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A67804D1DCCFF8300EC0DFE /* ViewController.m */; };
@@ -21,7 +22,20 @@
 		5A67806C1DCD093000EC0DFE /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A67806B1DCD093000EC0DFE /* View3.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A1873321DFE66A300DECBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A67803B1DCCFF8300EC0DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A6780421DCCFF8300EC0DFE;
+			remoteInfo = XibBenchmarks;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5A18732D1DFE66A300DECBB7 /* XibBenchmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibBenchmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A18732F1DFE66A300DECBB7 /* XibBenchmarksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibBenchmarksTests.m; sourceTree = "<group>"; };
+		5A1873311DFE66A300DECBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A6780431DCCFF8300EC0DFE /* XibBenchmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibBenchmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6780471DCCFF8300EC0DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A6780491DCCFF8300EC0DFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +58,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A18732A1DFE66A300DECBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A6780401DCCFF8300EC0DFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,10 +75,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A18732E1DFE66A300DECBB7 /* XibBenchmarksTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A18732F1DFE66A300DECBB7 /* XibBenchmarksTests.m */,
+				5A1873311DFE66A300DECBB7 /* Info.plist */,
+			);
+			path = XibBenchmarksTests;
+			sourceTree = "<group>";
+		};
 		5A67803A1DCCFF8300EC0DFE = {
 			isa = PBXGroup;
 			children = (
 				5A6780451DCCFF8300EC0DFE /* XibBenchmarks */,
+				5A18732E1DFE66A300DECBB7 /* XibBenchmarksTests */,
 				5A6780441DCCFF8300EC0DFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				5A6780431DCCFF8300EC0DFE /* XibBenchmarks.app */,
+				5A18732D1DFE66A300DECBB7 /* XibBenchmarksTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +146,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5A18732C1DFE66A300DECBB7 /* XibBenchmarksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1873361DFE66A300DECBB7 /* Build configuration list for PBXNativeTarget "XibBenchmarksTests" */;
+			buildPhases = (
+				5A1873291DFE66A300DECBB7 /* Sources */,
+				5A18732A1DFE66A300DECBB7 /* Frameworks */,
+				5A18732B1DFE66A300DECBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A1873331DFE66A300DECBB7 /* PBXTargetDependency */,
+			);
+			name = XibBenchmarksTests;
+			productName = XibBenchmarksTests;
+			productReference = 5A18732D1DFE66A300DECBB7 /* XibBenchmarksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5A6780421DCCFF8300EC0DFE /* XibBenchmarks */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A67805A1DCCFF8300EC0DFE /* Build configuration list for PBXNativeTarget "XibBenchmarks" */;
@@ -140,9 +190,14 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Mgen;
 				TargetAttributes = {
+					5A18732C1DFE66A300DECBB7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+						TestTargetID = 5A6780421DCCFF8300EC0DFE;
+					};
 					5A6780421DCCFF8300EC0DFE = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -160,11 +215,19 @@
 			projectRoot = "";
 			targets = (
 				5A6780421DCCFF8300EC0DFE /* XibBenchmarks */,
+				5A18732C1DFE66A300DECBB7 /* XibBenchmarksTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5A18732B1DFE66A300DECBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A6780411DCCFF8300EC0DFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +244,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5A1873291DFE66A300DECBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1873301DFE66A300DECBB7 /* XibBenchmarksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A67803F1DCCFF8300EC0DFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,6 +266,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A1873331DFE66A300DECBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A6780421DCCFF8300EC0DFE /* XibBenchmarks */;
+			targetProxy = 5A1873321DFE66A300DECBB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5A67804F1DCCFF8300EC0DFE /* Main.storyboard */ = {
@@ -216,6 +295,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5A1873341DFE66A300DECBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XibBenchmarksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mgen.XibBenchmarksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XibBenchmarks.app/XibBenchmarks";
+			};
+			name = Debug;
+		};
+		5A1873351DFE66A300DECBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XibBenchmarksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mgen.XibBenchmarksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XibBenchmarks.app/XibBenchmarks";
+			};
+			name = Release;
+		};
 		5A6780581DCCFF8300EC0DFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -333,6 +438,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A1873361DFE66A300DECBB7 /* Build configuration list for PBXNativeTarget "XibBenchmarksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1873341DFE66A300DECBB7 /* Debug */,
+				5A1873351DFE66A300DECBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5A67803E1DCCFF8300EC0DFE /* Build configuration list for PBXProject "XibBenchmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -349,6 +462,7 @@
 				5A67805C1DCCFF8300EC0DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
